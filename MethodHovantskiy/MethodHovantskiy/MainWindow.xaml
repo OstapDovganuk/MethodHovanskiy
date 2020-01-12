@@ -1,0 +1,13 @@
+﻿<Window x:Class="MethodHovantskiy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MethodHovantskiy"
+        mc:Ignorable="d"
+        Title="MethodHovanskiy" Height="325.333" Width="585.334" WindowStartupLocation="CenterScreen" MinWidth="600" MinHeight="330" MaxWidth="600" MaxHeight="350">
+    <Grid>
+        <Button x:Name="method_hovanskiy_rikati" Content="Метод Хованського" Margin="216,76,223,180" VerticalAlignment="Center" Click="Method_hovanskiy_rikati_Click" HorizontalAlignment="Center"/>
+        <Button x:Name="method_hovanskiy" Content="Метод Хованського &#xD;&#xA;для рівняння Рікаті" Margin="216,172,223,54" VerticalAlignment="Center" Click="Method_hovanskiy_Click" HorizontalAlignment="Center"></Button>
+    </Grid>
+</Window>
